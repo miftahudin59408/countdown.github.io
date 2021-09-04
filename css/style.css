@@ -1,0 +1,154 @@
+* {
+				margin: 0;
+				padding: 0;
+}
+
+body {
+				font-family: sans-serif;
+				background: linear-gradient(117.5deg, #e4fde1, #e4fde1 50%, #8acb88 50%, #8acb88 100%);
+				min-height: 100vh;
+}
+
+.container {
+				position: absolute;
+				top: 50px;
+				bottom: 50px;
+				left: 25px;
+				right: 25px;
+				background: #fff;
+				border-radius: 15px;
+				background: rgba(255,255,255,0.1);
+				border-top: 1px solid rgba(255,255,255,0.5);
+				box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+				backdrop-filter: blur(15px);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+}
+
+.container h2 {
+				text-align: center;
+				font-size: 1.5em;
+}
+
+.container span {
+				text-align: center;
+				font-size: 1em;
+				line-height: 2em;
+				margin-top: -450px;
+}
+
+.countdown {
+				position: absolute;
+				display: flex;
+				color: #0F4109;
+}
+
+.countdown div {
+				padding: 15px 0 15px 0;
+				width: 60px;
+				margin-left: 5px;
+				margin-right: 5px;
+				background: rgba(163,240,155,0.2);
+				text-align: center;
+				border-radius: 5px;
+				border-top: 1px solid #fff;
+				box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+				backdrop-filter: blur(10px);
+				font-size: 25px;
+}
+
+.countdown div:before {
+				position: absolute;
+				content: '';
+				left: 6px;
+				bottom: -30px;
+				padding-top: 7px;
+				width: 80%;
+				height: 40%;
+				text-align: center;
+				background: rgba(163,240,155,0.5);
+				border-radius: 0 0 5px 5px;
+				font-size: 12px;
+}
+
+.countdown div:after {
+				position: absolute;
+				content: '';
+				left: 6px;
+				top: -11px;
+				padding-top: 5px;
+				width: 80%;
+				height: 10%;
+				text-align: center;
+				background: rgba(163,240,155,0.5);
+				border-radius: 5px 5px 0 0;
+				
+}
+
+.countdown #hari:before {
+				content: 'Hari';
+}
+
+.countdown #jam:before {
+				content: 'Jam';
+}
+
+.countdown #menit:before {
+				content: 'Menit';
+}
+
+.countdown #detik:before {
+				content: 'Detik';
+}
+
+.container .tombol {
+				position: absolute;
+				margin-top: 530px;
+				width: 90%;
+				height: 30px;
+				border: none;
+				border-radius: 5px;
+				background: #009b0f;
+				font-weight: 600;
+				font-size: 15px;
+				color: #fff;
+}
+
+.container .tombol:hover {
+				position: absolute;
+				margin-top: 530px;
+				width: 90%;
+				height: 30px;
+				border: none;
+				border-radius: 5px;
+				background: #00370e;
+				font-weight: 600;
+				font-size: 15px;
+				color: grey;
+}
+
+.container .active {
+				position: absolute;
+				margin-top: 530px;
+				width: 90%;
+				height: 30px;
+				border: none;
+				border-radius: 5px;
+				background: #00370e;
+				font-weight: 600;
+				font-size: 15px;
+				color: grey;
+}
+
+.share {
+				position: absolute;
+				margin-top: 520px;
+				left: 10px;
+}
+
+.share span {
+				font-size:10px;
+				line-weight: 20px;
+}
